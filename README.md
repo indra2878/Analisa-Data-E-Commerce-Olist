@@ -65,9 +65,9 @@ sehingga untuk memudahkan proses ekplorasi dan pemrosesan data, entitas entitas 
 
 ## 3.	Ekplorasi dan Pemrosesan Data
 Proses eksplorasi data yang dilakukan meliputi: Identifikasi missing value, duplicate data, outlier, dan inconsistent format.
+(lihat file jupiter notebook untuk melihat proses pengolahan data dan hasilny secara lengkap). 
 
 **3.1	Identifikasi missing value**
-
 Berdasarkan info dataset jumlah non-null value sama dengan jumlah data,  serta visualisasi heatmap tidak menunjukkan adanya missing value maka dipastikan tidak ada null value pada olist_dataset_use.  
 
 **3.2	identfikasi duplicate data**
@@ -75,18 +75,17 @@ Dari hasil pemeriksaan duplikasi data terlihat ada 10080 baris data yang sama de
 
 **3.3	 Identifikasi outlier**
 Dari histogram terlihat grafiknya distibusinya skew (mengekor) ke kanan dan cukup jauh dari puncaknya, menandakan adanya outlier. Untuk menanganinya digunakan metode IQR.  
-
-
 Dari histogram hasil penanganan outlier terlihat grafiknya distibusinya sudah mendekati normal, menandakan outlier sudah ditangani dengan baik.  
 
 **3.4.	 Identifikasi inconsistent format**
-
 Dari info dataset dan tampilan isi tabel, kolom order_purchase_timestamp bertipe datetime namun masih tertulis object.
-Untuk menanganinya dengan mengubah type datanya dengan fungsi to_datetime() pandas.
+Untuk menanganinya dengan mengubah type datanya dengan fungsi to_datetime() pandas.  
+Dari info diatas type data order_purchase_timestamp sudah berubah menjadi datetime64[ns], maka inconsistent format sudah tertangani. Untuk selanjutnya dataset olist_dataset_use4 bisa digunakan untuk menjawab objektif.  
 
-Dari info diatas type data order_purchase_timestamp sudah berubah menjadi datetime64[ns], maka inconsistent format sudah tertangani. Untuk selanjutnya dataset olist_dataset_use4 bisa digunakan untuk menjawab objektif.
+## 4.	Analisa Data
+1. Mengetahui produk yang paling diminati pelanggan/paling banyak jumlah order-nya.
+2. Mengetahui total omzet penjualan dari tiap kategori produk.
+3. Mengetahui pertumbuhan pemesanan produk dari tiap 10 produk yang paling diminati.
 
-
-4.	Analisa Data
-
+## 5. Kesimpulan
 
