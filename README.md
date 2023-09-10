@@ -88,4 +88,15 @@ Dari info diatas type data order_purchase_timestamp sudah berubah menjadi dateti
 3. Mengetahui pertumbuhan pemesanan produk dari tiap 10 produk yang paling diminati.
 
 ## 5. Kesimpulan
+5.	Kesimpulan
+Dari hasil analisa data dapat diambil beberapa kesimpulan utama sebagai berikut
+1.	Ada 10 kategori produk yang paling diminati pelanggan yaitu: bed_bath_table, health_beauty, sports_leisure, computers_accessories, furniture_decor, housewares, watches_gifts, telephony, toys dan auto.
+
+2.	10 urutan kategori produk dengan oomzet terbesar yaitu: bed_bath_table, sports_leisure, health_beauty, computers_accessories, watches_gifts, furniture_decor, housewares,  cool_stuff, auto dan  toys.
+
+3.	Dari kedua urutan diatas bed_bath_table adalah kategori produk yang paling diminati dan juga penyumbang omzet terbesar di olist e-commerce ini sehingga disarankan kepada pengelola e-commerce ini agar lebih mengembangkan produk kategori bed_bath_table, bisa dari segi variasi produknya, service after salesnya, promo-promo dan sebagainya.
+
+## 6.	Link easy report
+
+https://medium.com/@i.wahyudin2878/analisa-data-e-commerce-olist-7bb135d227ba
 
